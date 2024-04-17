@@ -1,0 +1,49 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+            }
+            #containerDiv{
+                display: flex;
+                flex-direction: row;
+            }
+            #leftDiv{
+                height: 100vh;
+                width: 20%;
+              background-color: #080202;
+              color: white;
+            }
+            #rightDiv{
+                height: 100vh;
+                width: 80%;
+                background-color: rgb(234, 236, 231);
+            }
+     #leftFrame{
+               height: 100vh;
+                width: 100%;
+                
+                
+     }
+     #rightFrame{
+        height: 100vh;
+                width: 100%;
+             
+     }
+
+        </style>
+
+    </head>
+    <body>
+        <div id="containerDiv">
+            <div id="leftDiv">
+                <iframe name="leftFrame" id="leftFrame" src="leftiframe.html"  ></iframe>
+            </div>
+            <div id="rightDiv">
+                <iframe name="rightFrame" id="rightFrame" src="netfilx.html"></iframe>
+            </div>
+
+        </div>
+    </body>
+</html>
